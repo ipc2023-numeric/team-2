@@ -1,0 +1,7 @@
+#! /bin/bash
+
+DOMAIN=$1
+PROBLEM=$2
+PLAN=$3
+
+python2 omtplan.py -domain $DOMAIN $PROBLEM -omt -parallel
